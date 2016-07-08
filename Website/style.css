@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+
+}
+@font-face {
+  font-family: manifesto;
+  src:url("MANIFESTO.ttf");
+}
+body{
+  background-color: #111111;
+}
+h1{
+  height: 200px;
+  background-color: #080808;
+}
+span{
+  color: white;
+  text-align: center;
+  font-family: manifesto;
+  font-size: 80px;
+  font-weight: 400;
+  position: absolute;
+  top: 50px;
+  left: 220px;
+}
+div{
+  width: 200px;
+  height: 600px;
+  background-color: #212121;
+}
+div ul{
+  margin-top: -18px;
+}
+div a{
+  font-size: 35px;
+  text-decoration: none;
+  color: white;
+}
+div ul li{
+  text-align: center;
+  list-style-type: none;
+  display: block;
+  padding: 20px;
+}
+div ul li:hover{
+  background: green;
+  transition: linear all 0.40s;
+}
+
+.selected{
+  background-color: #111111;
+}
+img{
+  float: left;
+}
